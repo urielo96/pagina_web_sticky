@@ -22,6 +22,7 @@ img{
     top: 0;
     
     
+    
 }
 
 .contenedor-imagenes{
@@ -52,4 +53,22 @@ h1{
     border-top: solid 1px rgb(0,174,255);
     border-bottom: solid 1px rgb(0,174,255);
     font-family: 'Audiowide', cursive;
+}
+
+.video{
+    
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    z-index: 1300;
+    width: 50vw;
+    height: 50vh;
+    position: sticky;
+   
+}
+
+
+audio{
+    display: flex;
+    z-index: 1400;
 }
