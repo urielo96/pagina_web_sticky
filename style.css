@@ -60,7 +60,7 @@ h1{
     display: flex;
     flex-direction: column;
     top: 0;
-    z-index: 1300;
+    z-index: 500;
     width: 50vw;
     height: 50vh;
     position: sticky;
@@ -70,5 +70,5 @@ h1{
 
 audio{
     display: flex;
-    z-index: 1400;
+    z-index: 500;
 }
